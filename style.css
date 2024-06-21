@@ -1,0 +1,198 @@
+nav {
+    background-color: #ffcdb2;
+    font-weight: 100;
+}
+#cloudicon {
+    color: white;
+}
+.navbar a {
+    color: #6d6875;
+}
+.navbar a:hover {
+    font-weight: 300;
+    color: white;
+}
+#navbar-brand {
+    color: #6d6875;
+}
+.navbar button:hover {
+    color:#e5989b;
+}
+#dropdown-menu{
+    background-color: #ffcdb2;
+}
+#dropdown-menu a {
+    color : white;
+}
+.form-control.me-2.search{
+    font-weight: 100;
+}
+#bag-btn{
+    margin-left: 0.5em;
+}
+
+main {
+    color : #ffcdb2;
+    background-color: #6d6875;
+    padding: 1rem;
+}
+
+div .col-md-6.col-lg-4.col-xl-3{
+    padding-bottom: 1rem;
+}
+
+.card {
+    font-weight: 200;
+    padding: 0.5rem;
+    color: #b5838d;
+    height: 100%
+}
+.card h5 a{
+    color: #6d6875;
+    text-decoration: none;
+}
+.card h5 a:hover{
+    color:#e5989b;
+    text-decoration: underline;
+}
+.badge.rounded-pill.popular {
+    background-color:#6bdee8;
+    font-size: 0.7rem;
+}
+.badge.rounded-pill.new {
+    background-color:#c8b6ff;
+    font-size: 0.7rem;
+}
+.card button {
+    background-color: #ffcdb2;
+    color: #6d6875;
+}
+.card button:hover {
+    background-color: #e5989b;
+    color: white;
+}
+.modal-body {
+    background-color:white;
+    color:#6d6875;
+}
+.modal-body button{
+    background-color:#ffcdb2;
+    color:white;
+}
+.modal-body button:hover {
+    background-color:#e5989b;
+    color:white;
+}
+
+#subscribe-btn:hover {
+    background-color: #ffcdb2;
+    color: #6d6875;
+}
+
+.site-footer {
+    background-color:#ffcdb2;
+}
+#footer-col {
+    text-align: end;
+}
+#footer-col a{
+    color:#6d6875;
+    text-decoration: none;
+}
+#footer-col a:hover{
+    color: white;
+}
+
+.product{
+    margin-top:5%;
+    background-color: white;
+    color:#6d6875;
+}
+#product-title{
+    color:#e5989b;
+}
+#carouselExampleControls {
+    margin-bottom:3%;
+}
+.row.review{
+    margin-top: 5%;
+}
+.checked {
+    color:#e5989b
+}
+article.review {
+ border: #c8b6ff;
+}
+#product-bag-btn{
+    background-color: #ffcdb2;
+    color: #6d6875;
+}
+#review-btn{
+    background-color:#6d6875;
+    color:white;
+}
+#product-bag-btn:hover, #review-btn:hover{
+    background-color: #e5989b;
+    color: white;
+}
+.product h6, .date {
+    font-weight:100;
+    font-size: 0.8em;
+}
+.product hr{
+    color:#e5989b;
+}
+.star-rating{
+    font-size: 0.8rem;
+    margin-top: -1rem;
+}
+.modal-header{
+    height:1.5em;
+}
+.modal-header h1{
+    font-size: 1em;
+    color:#e5989b;
+}
+.modal-body input::placeholder, .modal-body textarea::placeholder{
+    font-weight: 100;
+    color:#b5838d;
+}
+#modal-btn-close{
+    background-color: #ffcdb2;
+    color:#6d6875;
+}
+#modal-btn-submit{
+    background-color:#e5989b;
+    color:#6d6875;
+}
+#modal-btn-close:hover, #modal-btn-submit:hover{
+color:white;
+}
+.add-product main{
+    background-color: white;
+    color:#6d6875;
+}
+.add-product article img{
+    height: 30rem;
+}
+
+.add-product footer {
+    background-color:#ffcdb2;
+}
+.btn-bottom {
+    margin-top: 2rem;
+}
+#save-btn {
+    background-color: #e5989b;
+}
+#save-btn:hover {
+    background-color: #ffcdb2;
+    color:white;
+}
+#cancel-btn {
+    color:#b5838d;
+    border-color: #b5838d;    
+}
+#cancel-btn:hover {
+    color:#6d6875;
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Info - Wood Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25"
+            height="25" fill="currentColor" class="bi bi-clouds-fill" id="cloudicon" viewBox="0 0 16 16">
+            <path d="M11.473 9a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 14h8.5a2.5 2.5 0 1 0-.027-5z" />
+            <path
+              d="M14.544 9.772a3.506 3.506 0 0 0-2.225-1.676 5.502 5.502 0 0 0-6.337-4.002 4.002 4.002 0 0 1 7.392.91 2.5 2.5 0 0 1 1.17 4.769z" />
+          </svg> WOOD STUDIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NEW</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SHOP
+              </a>
+              <ul class="dropdown-menu" id="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ALL</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">PUZZLES</a></li>
+                <li><a class="dropdown-item" href="#">BLOCKS</a></li>
+                <li><a class="dropdown-item" href="#">PULL ALONG TOYS</a></li>
+                <li><a class="dropdown-item" href="#">CARS / TRAINS</a></li>
+                <li><a class="dropdown-item" href="#">ANIMAL FRIENDS</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-sm btn-outline-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg></button>
+          </form>
+          <button type="button" class="btn btn-outline-light" id="bag-btn"><svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z" />
+            </svg></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./photos/block.jpg" class="d-block w-100 rounded" alt="block toys">
+              </div>
+              <div class="carousel-item">
+                <img src="./photos/block2.jpg" class="d-block w-100 rounded" alt="block toys">
+              </div>
+              <div class="carousel-item">
+                <img src="./photos/block3.jpg" class="d-block w-100 rounded" alt="block toys">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h4 id="product-title">WOODEN BLOCKS <span class="badge rounded-pill popular">popular</span></h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, odit asperiores. Itaque voluptatibus
+            assumenda saepe incidunt. Voluptatibus placeat vero enim. Excepturi aut voluptatum cupiditate iusto magnam
+            minima, nemo saepe ratione eaque autem cum deleniti doloremque necessitatibus pariatur error assumenda
+            sapiente, placeat, quisquam alias vel consequatur ut. Nam molestiae, et inventore aspernatur incidunt sit
+            magni, quos ipsam illum similique sunt alias pariatur. Sint quibusdam amet minima voluptate nisi reiciendis
+            aut labore, ad quae exercitationem quidem, ut adipisci vero! Itaque officia earum aliquid harum eius
+            inventore, quis eaque, consequatur sed, explicabo libero minus ipsam dignissimos debitis mollitia enim
+            distinctio. Id, omnis aliquam!</p>
+          <h5>$40.00 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-tag-fill" viewBox="0 0 16 16">
+              <path
+                d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1H2zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+            </svg></h5>
+          <div class="d-grid gap-2 col-12 mx-auto">
+            <button class="btn btn-sm btn-outline-light" id="product-bag-btn" type="button" data-bs-toggle="modal"
+              data-bs-target="#shoppingbag-modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg> Add To Your Bag</button>
+          </div>
+        </div>
+        <div class="modal fade" id="shoppingbag-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body rounded text-center">
+                <p>The item has been successfully added to your bag!</p>
+                <button type="button" class="btn btn-sm btn-outline-light" data-bs-dismiss="modal">OK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row review">
+        <div class="col-lg-10">
+          <div class="row">
+            <div class="col">
+              <h4>REVIEWS</h4>
+            </div>
+            <div class="col text-end">
+              <button class="btn" id="review-btn" data-bs-toggle="modal" data-bs-target="#review-modal">WRITE A
+                REVIEW</button>
+            </div>
+            <div class="modal fade" id="review-modal" tabindex="-1" aria-labelledby="review-modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title" id="review-modalLabel"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg> LEAVE US A REVIEW <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></h1>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3 star-rating">
+                        <input type="radio" value="5stars" name="stars">
+                        <label for="5stars" class="col-form-label">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </label>
+                      </div>
+                      <div class="mb-3 star-rating">
+                        <input type="radio" value="4stars" name="stars">
+                        <label for="4stars" class="col-form-label">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </label>
+                      </div>
+                      <div class="mb-3 star-rating">
+                        <input type="radio" value="3stars" name="stars">
+                        <label for="3stars" class="col-form-label">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </label>
+                      </div>
+                      <div class="mb-3 star-rating">
+                        <input type="radio" value="2stars" name="stars">
+                        <label for="2stars" class="col-form-label">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                        </label>
+                      </div>
+                      <div class="mb-3 star-rating">
+                        <input type="radio" value="1star1" name="stars">
+                        <label for="1star" class="col-form-label">
+                          <span class="fa fa-star checked"></span>
+                        </label>
+                      </div>
+                      <div class="mb-3 star-rating">
+                        <label for="message-text" class="col-form-label"></label>
+                        <textarea rows="5" class="form-control" id="review-message"
+                          placeholder="What did you think about this product?" required>
+                        </textarea>
+                      </div>
+                      <div class="mb-3 star-rating">
+                        <label for="user-name" class="col-form-label"></label>
+                        <input type="text" class="form-control" id="user-name" placeholder="Your name" required>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" id="modal-btn-close" class="btn btn-sm btn-outline-light"
+                      data-bs-dismiss="modal">CLOSE</button>
+                    <button type="button" id="modal-btn-submit" class="btn btn-sm btn-outline-light">SUBMIT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse libero aspernatur eveniet nulla
+              repellendus deserunt porro odit facere qui.</div>
+            <div class="date">1 week ago</div>
+          </article>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores tempore aut nam laboriosam
+              reiciendis, qui, eaque iusto esse maiores quas consectetur dolore necessitatibus ipsum architecto aliquam,
+              est voluptates facilis consequatur?</div>
+            <div class="date">3 weeks ago</div>
+          </article>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse libero aspernatur eveniet nulla
+              repellendus deserunt porro odit facere qui.</div>
+            <div class="date">1 month ago</div>
+          </article>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse libero aspernatur eveniet nulla
+              repellendus deserunt porro odit facere qui.</div>
+            <div class="date">1 month ago</div>
+          </article>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, sed iure asperiores aliquid nulla
+              perspiciatis aspernatur expedita hic molestiae. Vero repudiandae perferendis rerum ex ut! Recusandae iusto
+              iure hic officiis doloremque blanditiis totam voluptates consequuntur sunt tempore aliquam, optio eos.
+            </div>
+            <div class="date">2 months ago</div>
+          </article>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse libero aspernatur eveniet nulla
+              repellendus deserunt porro odit facere qui.</div>
+            <div class="date">3 months ago</div>
+          </article>
+          <article class="review">
+            <hr>
+            <div class="row">
+              <div class="col">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="col text-end">
+                <h6>Some name</h6>
+              </div>
+            </div>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, reiciendis.</div>
+            <div class="date">3 months ago</div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="d-flex flex-row justify-content-between">
+      <div class="col">
+        <div class="p-2"><span>&copy; 2077, Wood Studio</span>
+        </div>
+      </div>
+      <div class="col" id="footer-col">
+        <div class="p-2"><span><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                fill="currentColor" class="bi bi-clouds-fill" viewBox="0 0 16 16">
+                <path d="M11.473 9a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 14h8.5a2.5 2.5 0 1 0-.027-5z" />
+                <path
+                  d="M14.544 9.772a3.506 3.506 0 0 0-2.225-1.676 5.502 5.502 0 0 0-6.337-4.002 4.002 4.002 0 0 1 7.392.91 2.5 2.5 0 0 1 1.17 4.769z" />
+              </svg> About Us</a></span></div>
+        <div class="p-2"><span><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+              </svg> Contact Us</a></span></div>
+        <div class="p-2"><span><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                <path
+                  d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z" />
+              </svg> Terms of Service</a></span></div>
+      </div>
+      <div class="p-2"><span></span></div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
